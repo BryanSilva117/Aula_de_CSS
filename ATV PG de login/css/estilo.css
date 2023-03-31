@@ -41,7 +41,7 @@
  }
 
  .navbar {
-    width: 300px;
+    width: 350px;
    
     /*aqui fez as logos inicial,calc,login ficarem reta*/
     display: flex;
@@ -104,7 +104,7 @@
  }
 
  .final {
-  padding: 4%;
+  padding: 40px;
   
   color: white;
 
@@ -118,4 +118,10 @@
     text-align: center;
  }
 
+ .versao {
+   text-align: center;
+   font-size: 0.8em;
+ }
+
+ /*Input login*/
  
