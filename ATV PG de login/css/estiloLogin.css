@@ -1,0 +1,158 @@
+body {
+    /*margem*/
+    margin: 0;
+
+    /*preenchimento*/
+    padding: 0;
+
+    /*definir formato da letra*/
+    font-family: 'Courier new', Geneva, sans-serif;
+
+    /*Cor de fundo do site*/
+    background-color: black;
+}
+
+.container {
+    /*largura*/
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+}
+
+.header {
+    border-bottom: 2px #32b9cd solid;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header a {
+    /*decoração de texto*/
+    text-decoration: none;
+
+    color: #e3b062;
+}
+
+.agora {
+    /*expressura da fonte*/
+    font-weight: 900;
+}
+
+.navbar {
+    width: 350px;
+
+    /*aqui fez as logos inicial,calc,banner ficarem reta n entendi ainda*/
+    display: flex;
+
+    /*alinha o texto*/
+    align-items: center;
+
+    /*separou as palavras*/
+    justify-content: space-between;
+
+    list-style: none;
+}
+
+.titulo {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.banner {
+    /*altura*/
+    height: fit-content;
+
+    /*aumenta ou diminui o quadrado do site*/
+    padding: 90px 0;
+
+    color: white;
+
+    /*coloca uma imagem de fundo*/
+    background-image: url(../img/bg-jelly-fish-para_outras_pags.png);
+
+
+    /*para muda o formato da imagem de fundo*/
+    background-size: cover;
+
+}
+
+.banner .container {
+    height: 400px;
+
+    /*aumenta o tamanho do texto*/
+    font-size: 20px;
+
+    /*centraliza*/
+    justify-content: center;
+
+    /*centraliza o texto*/
+    align-items: center;
+}
+
+.banner p {
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    width: 280px;
+}
+
+.banner .container span {
+    font-weight: 800;
+}
+.login {
+    padding: 30px 120px;
+    background-color: rgba(255, 255, 255, 0.952);
+    border-radius: 7px;
+    justify-content: center;
+    color: #e60058b0;
+    text-align: center;
+}
+
+.login button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 16px 50px;
+    background-color: #E6005A;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border: none;
+}
+
+.questao {
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.questao input {
+    text-align: center;
+    width: 240px;
+    height: 39px;
+    border-radius: 10px;
+    border: 2px solid #32b9cd;
+}
+
+.final {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 50px;
+    color: white;
+    background-color: #32b9cd;
+}
+
+.final .container {
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.versao {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
